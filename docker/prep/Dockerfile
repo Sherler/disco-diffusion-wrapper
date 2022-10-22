@@ -1,4 +1,4 @@
-FROM nvcr.io/nvidia/pytorch:21.08-py3 AS prep
+FROM nvcr.io/nvidia/pytorch:21.08-py3
     RUN mkdir -p /scratch/models && \
         mkdir -p /scratch/models/superres && \
         mkdir -p /scratch/models/slip && \
