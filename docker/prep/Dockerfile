@@ -1,4 +1,4 @@
-FROM registry.cn-beijing.aliyuncs.com/qykg/disco-diffusion:env-0.1
+FROM nvcr.io/nvidia/pytorch:21.08-py3
 
 RUN mkdir -p /scratch/models && mkdir -p /scratch/models/superres && mkdir -p /scratch/models/slip && mkdir -p /scratch/model-lpips && mkdir -p /scratch/clip && mkdir -p /scratch/pretrained
 
